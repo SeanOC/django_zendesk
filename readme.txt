@@ -13,7 +13,7 @@ The only other code setup required is pointing a URL at the django_zendesk.views
 
 Zendesk itself needs a bit of setup, including the URL we just set up above and a log-out URL which already should be implemented somewhere in your site.
 
-Zendesk's documentation for remote authentication is here: http://www.zendesk.com/api/remote_authentication
+Zendesk's documentation for remote authentication is here: http://www.zendesk.com/api/remote-authentication
 
 If you're running the tests, make sure to set the TEST_DATABASE_CHARSET setting so that test databases are created to be utf8 compatible.
 
